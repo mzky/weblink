@@ -1,4 +1,4 @@
-module github.com/mzky/blink
+module github.com/mzky/weblink
 
 go 1.20
 
