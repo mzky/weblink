@@ -18,9 +18,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/epkgs/blink/internal/log"
 	"github.com/jlaffaye/ftp"
 	"github.com/lxn/win"
+	"weblink/internal/log"
 )
 
 type Downloader struct {

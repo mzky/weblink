@@ -5,14 +5,14 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/epkgs/blink/internal/log"
-	"github.com/epkgs/blink/internal/miniblink"
-	"github.com/epkgs/blink/pkg/alert"
-	"github.com/epkgs/blink/pkg/downloader"
-	"github.com/epkgs/blink/pkg/queue"
-	"github.com/epkgs/blink/pkg/resource"
 	"github.com/lxn/win"
 	"golang.org/x/sys/windows"
+	"weblink/internal/log"
+	"weblink/internal/miniblink"
+	"weblink/pkg/alert"
+	"weblink/pkg/downloader"
+	"weblink/pkg/queue"
+	"weblink/pkg/resource"
 )
 
 var locker sync.RWMutex

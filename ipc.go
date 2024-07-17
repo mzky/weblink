@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/epkgs/blink/internal/cast"
-	"github.com/epkgs/blink/internal/log"
-	"github.com/epkgs/blink/internal/utils"
+	"weblink/internal/cast"
+	"weblink/internal/log"
+	"weblink/internal/utils"
 )
 
 const (

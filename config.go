@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/epkgs/blink/internal/log"
+	"weblink/internal/log"
 )
 
 type Config struct {

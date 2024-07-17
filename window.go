@@ -11,9 +11,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/epkgs/blink/internal/log"
-	"github.com/epkgs/blink/internal/utils"
 	"github.com/lxn/win"
+	"weblink/internal/log"
+	"weblink/internal/utils"
 )
 
 type WM_SIZING uint16
