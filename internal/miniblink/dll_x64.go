@@ -1,4 +1,4 @@
-//go:build !slim && !386
+//go:build amd64
 
 package miniblink
 

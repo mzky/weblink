@@ -12,7 +12,7 @@ func main() {
 	defer app.Exit()
 
 	view := app.CreateWebWindowPopup()
-	view.Window.SetIconFromBytes(icon)
+	//view.Window.SetIconFromBytes(icon)
 	view.Window.SetTitle("miniblink窗口")
 	view.Window.MoveToCenter()
 	view.LoadURL("https://www.baidu.com")
