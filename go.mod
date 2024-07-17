@@ -1,4 +1,4 @@
-module weblink
+module github.com/mzky/weblink
 
 go 1.20
 
