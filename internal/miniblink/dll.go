@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/mzky/weblink/internal/log"
 	"golang.org/x/sys/windows"
-	"weblink/internal/log"
 )
 
 func LoadDLL(dllFile, tempPath string) (*windows.DLL, error) {

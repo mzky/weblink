@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"weblink/internal/log"
+	"github.com/mzky/weblink/internal/log"
 )
 
 type Config struct {

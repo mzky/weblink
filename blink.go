@@ -6,13 +6,13 @@ import (
 	"unsafe"
 
 	"github.com/lxn/win"
+	"github.com/mzky/weblink/internal/log"
+	"github.com/mzky/weblink/internal/miniblink"
+	"github.com/mzky/weblink/pkg/alert"
+	"github.com/mzky/weblink/pkg/downloader"
+	"github.com/mzky/weblink/pkg/queue"
+	"github.com/mzky/weblink/pkg/resource"
 	"golang.org/x/sys/windows"
-	"weblink/internal/log"
-	"weblink/internal/miniblink"
-	"weblink/pkg/alert"
-	"weblink/pkg/downloader"
-	"weblink/pkg/queue"
-	"weblink/pkg/resource"
 )
 
 var locker sync.RWMutex

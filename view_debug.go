@@ -3,7 +3,7 @@
 package blink
 
 import (
-	"weblink/internal/devtools"
+	"github.com/mzky/weblink/internal/devtools"
 )
 
 func (v *View) ShowDevTools(devtoolsCallbacks ...func(devtools *View)) {

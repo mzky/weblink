@@ -11,8 +11,8 @@ import (
 	"time"
 	"unsafe"
 
-	"weblink/internal/log"
-	"weblink/internal/utils"
+	"github.com/mzky/weblink/internal/log"
+	"github.com/mzky/weblink/internal/utils"
 )
 
 type OnDomEventCallback func()

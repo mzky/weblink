@@ -12,8 +12,8 @@ import (
 	"unsafe"
 
 	"github.com/lxn/win"
-	"weblink/internal/log"
-	"weblink/internal/utils"
+	"github.com/mzky/weblink/internal/log"
+	"github.com/mzky/weblink/internal/utils"
 )
 
 type WM_SIZING uint16

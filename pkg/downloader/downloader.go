@@ -20,7 +20,7 @@ import (
 
 	"github.com/jlaffaye/ftp"
 	"github.com/lxn/win"
-	"weblink/internal/log"
+	"github.com/mzky/weblink/internal/log"
 )
 
 type Downloader struct {

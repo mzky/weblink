@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"time"
 
-	"weblink/internal/cast"
-	"weblink/internal/log"
-	"weblink/internal/utils"
+	"github.com/mzky/weblink/internal/cast"
+	"github.com/mzky/weblink/internal/log"
+	"github.com/mzky/weblink/internal/utils"
 )
 
 const (
