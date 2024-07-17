@@ -8,7 +8,7 @@ import (
 
 const (
 	ARCH    = "x32"
-	VERSION = "4949"
+	VERSION = "4957"
 )
 
 //go:embed release/x32
